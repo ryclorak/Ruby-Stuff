@@ -1,5 +1,7 @@
 #!usr/bin/env ruby
 
+#version 0
+
 class Launcher
 
   def initialize app_map
@@ -20,7 +22,7 @@ class Launcher
   
   #Return file extension
   def file_type file_name
-    File.extname( file_name ).gsub( /^\./,'' )
+    File.extname( file_name ).gsub /^\./, ''
   end
 
 end
@@ -41,7 +43,7 @@ end
 
 app_map = {
    'html' => 'firefox-browser -new-window --enable-plugins --allow-outdated-plugins ',
-   'rb' => 'Notepad++'
+   'rb' => 'Notepad'
 }
 
 l = Launcher.new app_map
