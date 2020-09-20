@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 class MegaGreeter
-	attr_accessor :names
+	attr_accessor :names #easy way of saying attr_reader and attr_writer which are built in getters and setters
 	
 	def initialize(names = "World")
 		@names = names
