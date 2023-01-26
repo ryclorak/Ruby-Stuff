@@ -9,4 +9,7 @@ puts "Never Gonna"; puts "Let You Down"
 # gets ##########################################
 # for getting input - returns whatever, plus \n
 # .chomp is used to trim separators
+print "type some shit yo >"
 str = gets.chomp
+print str
+puts str
