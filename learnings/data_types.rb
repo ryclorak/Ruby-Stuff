@@ -37,7 +37,7 @@ puts 'Hello, #{name}'  # Hello, #{name} but the IDE will show that so yay vs cod
 # cam convert other objects into strings
 
 
-# SYNBOLS #######################################
+# SYMBOLS #######################################
 # sorta like a string..? useful as keys in hashes
 # stored in memory once, as opposed to more each time string is used
 :some_symbol  # at the beginning of some text
